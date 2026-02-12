@@ -31,3 +31,79 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Environment files - NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# Build
+target/
+build/
+dist/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+logs/
+*.log
+log4j.properties
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+gradlew
+gradlew.bat
+
+# Spring Boot
+application.properties.local
+application.yml.local
+
+# Node (if using frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+
+# AWS
+.ebignore
+.elasticbeanstalk/
+
+# Credentials
+*.pem
+*.key
+*.p12
+credentials
+aws_credentials
+
+# Temporary
+*.tmp
+*.temp
+*.swp
+*~
